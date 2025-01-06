@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <section class="w-full h-16 z-40 flex items-center justify-between">
     <ChangePassword></ChangePassword>
     <div class="block lg:hidden ml-6">
@@ -79,4 +79,4 @@ export default {
     },
   },
 };
-</script>
+</script> -->
