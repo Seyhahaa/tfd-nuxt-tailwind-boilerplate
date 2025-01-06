@@ -48,14 +48,14 @@
             alt="profil"
             :src="
               'https://avatars.dicebear.com/api/male/' +
-              loggedInUser.username +
+               +
               '.svg?background=%230000ff'
             "
             class="mx-auto object-cover rounded-full h-10 w-10"
           />
         </a>
         <button class="flex items-center text-gray-500 dark:text-white text-md">
-          {{ loggedInUser.name }}
+          {{  }}
         </button>
       </div>
     </div>
