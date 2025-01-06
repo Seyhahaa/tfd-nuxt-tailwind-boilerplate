@@ -63,7 +63,7 @@
 </template>
 <script>
 import { mapGetters } from "vuex";
-import ChangePassword from "../Forms/change-password";
+import ChangePassword from "../forms/change-password.vue";
 
 export default {
   name: "NavBarHome",
