@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import LoginModal from "~/components/Forms/login-modal";
-import Registration from "~/components/forms/registration";
+import LoginModal from "~/components/forms/login-modal.vue";
+import Registration from "~/components/forms/registration.vue";
 export default {
   components: { Registration, LoginModal },
   middleware: "guest",

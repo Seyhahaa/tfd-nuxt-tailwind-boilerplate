@@ -52,7 +52,7 @@
   </div>
 </template>
 <script>
-import ShadowButton from "~/components/button/shadow-button";
+import ShadowButton from "~/components/button/shadow-button.vue";
 export default {
   components: { ShadowButton },
   data() {
