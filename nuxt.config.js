@@ -59,13 +59,13 @@ export default {
       process.env.NODE_ENV === "production"
         ? false
         : process.env.NODE_ENV !== "staging",
-    baseURL: process.env.BASE_URL || "http://154.38.169.101:80",
+    baseURL: process.env.BASE_URL || "https://tfd.wegokh.online",
     // proxyHeaders: false,
     // credentials: false
   },
   proxy: {
     "/api/v1/": {
-      target: "http://154.38.169.101:80/api/v1",
+      target: "https://tfd.wegokh.online/api/v1",
       pathRewrite: { "^/api/v1/": "" },
     },
   },
@@ -151,7 +151,7 @@ export default {
   },
   loading: false,
   publicRuntimeConfig: {
-    baseURL: process.env.BASE_URL || "http://154.38.169.101:80",
+    baseURL: process.env.BASE_URL || "https://tfd.wegokh.online",
     nodeEnv: process.env.NODE_ENV || "development",
   },
 };
